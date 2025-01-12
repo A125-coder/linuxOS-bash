@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F: '{print $1}' /etc/passwd
+grep /bin/bash /etc/passwd
